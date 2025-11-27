@@ -1,7 +1,7 @@
 # Server settings
 server:
     tomcat:
-        basedir: D:/111.CODE/Java/OneBlog_Experiment/var/tmp/oneblog/blog-admin
+        basedir: ./var/tmp/oneblog/blog-admin
 # SPRING PROFILES
 spring:
     profiles:
@@ -11,7 +11,7 @@ spring:
 logging:
     config: classpath:logback-spring.xml
     file:
-      path: D:/111.CODE/Java/OneBlog_Experiment/var/tmp/oneblog/logs
+      path: ./var/tmp/oneblog/blog-admin
 
 ####################################自定义配置##########################################
 app:
